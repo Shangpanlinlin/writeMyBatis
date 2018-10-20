@@ -1,0 +1,5 @@
+<mapper namespace="com.frameworkwrite.UserMapper">
+    <select id="selectOne" resultType="domain.User">
+     select * from tab_user where uid = ?
+  </select>
+</mapper>
